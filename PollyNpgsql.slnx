@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PollyNpgsql/PollyNpgsql.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PollyNpgsql.Tests/PollyNpgsql.Tests.csproj" />
+  </Folder>
+</Solution>
