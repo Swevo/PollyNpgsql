@@ -8,11 +8,11 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>PollyNpgsql</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Description>Polly v8 resilience pipelines for Npgsql (PostgreSQL) — retry, timeout, and circuit-breaker for NpgsqlConnection queries and commands, plus a built-in PostgresTransientErrors predicate covering all common PostgreSQL transient SQLSTATE codes.</Description>
     <PackageTags>polly;npgsql;postgresql;postgres;resilience;retry;timeout;circuit-breaker;fault-tolerance;dotnet;aspnetcore;polly-v8;database;sql;transient;dependency-injection;sqlstate</PackageTags>
-    <PackageReleaseNotes>1.0.0: Initial release. ResilientNpgsqlConnection wraps Npgsql queries and commands in a Polly v8 ResiliencePipeline. Includes PostgresTransientErrors helper with pre-built ShouldHandle predicate. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Fix package icon (was showing an incorrect/placeholder image). 1.0.0: Initial release. ResilientNpgsqlConnection wraps Npgsql queries and commands in a Polly v8 ResiliencePipeline. Includes PostgresTransientErrors helper with pre-built ShouldHandle predicate. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Swevo/PollyNpgsql</RepositoryUrl>
@@ -40,8 +40,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="....icon.png" Pack="true" PackagePath="" />
+    <None Include="....README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
