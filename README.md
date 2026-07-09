@@ -3,6 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/v/PollyNpgsql.svg)](https://www.nuget.org/packages/PollyNpgsql)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyNpgsql.svg)](https://www.nuget.org/packages/PollyNpgsql)
 [![CI](https://github.com/Swevo/PollyNpgsql/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyNpgsql/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Polly v8 resilience for Npgsql (PostgreSQL)** — retry, timeout, and circuit-breaker for `NpgsqlConnection` queries and commands, plus a built-in `PostgresTransientErrors` predicate covering all common PostgreSQL transient SQLSTATE codes. Zero changes to your existing SQL.
 
